@@ -1,0 +1,117 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-container {
+    display: flex;
+    border: 1px solid blue; /* Contenedor principal */
+    width: 80%;
+    margin: 20px auto; /* Separación bajo el menú fijo */
+    box-sizing: border-box;
+}
+
+.blue-box {
+    border: 3px solid blue;
+    flex: 1;
+}
+
+.brown-box {
+    border: 3px solid brown;
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.pink-box {
+    border: 3px solid pink;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    border: 3px;
+}
+
+.green-box {
+    border: 3px solid green;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.text {
+    text-align: justify;
+}
+
+.green-sidebar {
+    border: 3px solid green;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.menu-button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.menu-button:hover {
+    background-color: darkblue;
+}
+
+/* Menú fijo en la parte superior */
+.fixed-menu {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: lightblue;
+    padding: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    z-index: 1000;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 5px 10px
+}
+
+/* Elemento fijo en la esquina inferior derecha */
+.fixed-bottom-rigth {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: lightgreen;
+    padding: 10px;
+    border: 2px solid green;
+    border-radius: 5px;
+    font-weight: bold;
+    
+}
+
+
+
+
